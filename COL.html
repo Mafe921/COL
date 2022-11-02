@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Colombia</title>
+    <style>
+      body {
+        font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+        background-color: rgb(250, 246, 239);
+      }
+      section {
+        margin: 120px 0;
+      }
+
+      h1 {
+        color: rgba(97, 164, 98, 0.916);
+
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0;
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        color: rgb(37, 22, 2);
+        padding: 0 0 5px;
+        text-size-adjust: 10px;
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 25px;
+      }
+      h3 {
+        text-align: center;
+      }
+      h4 {
+        text-align: center;
+        color: rgb(144, 139, 133);
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 60%;
+        border-radius: 20px;
+      }
+      p {
+        font-size: 18px;
+
+        line-height: 28px;
+        font-family: PT Mono, monospace;
+        text-align: center;
+        border: 1px solid rgb(109, 80, 54);
+        border-radius: 50px;
+        color: rgb(37, 22, 2);
+      }
+      p2 {
+        color: rgb(37, 22, 2);
+        padding: 0 0 5px;
+        text-size-adjust: 5px;
+        font-weight: 900;
+        display: block;
+        text-align: center;
+      }
+
+      button {
+        border-radius: 25px;
+        margin: 0 auto;
+        display: block;
+        background-color: rgba(97, 164, 98, 0.916);
+        border: 1px solidrgb(240, 209, 169);
+        color: white;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        text-decoration: none;
+        transition: all 200ms ease;
+        text-color: white;
+      }
+      button:hover {
+        background: white;
+        color: rgba(97, 164, 98, 0.916);
+      }
+      video {
+
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <h1>❀ COLOMBIA ❀</h1>
+
+      <h2>The only risk is wanting to stay</h2>
+
+      <img
+        src="https://i0.wp.com/www.thelostgirlsguide.com/wp-content/uploads/IMG_0385.jpg?w=1560&ssl=1"
+        class="img-circle"
+        alt="Cinque Terre"
+      />
+      <br />
+      <h3>"There is a reason magical realism was born in Colombia"</h3>
+      <h4>— Narcos, TV Series —</h4>
+      <br />
+      <br />
+
+      <br />
+      <br />
+      <p>
+        Cocaine, coffee, cartels and civil war.
+        <br />
+        That is all a lot of foreigners used to know of Colombia. Today however,
+        travellers are raving about the beaches, the transforming cities, the
+        boom of creativity and the warm welcome received from people proud to
+        show off what was hidden away for so long.
+        <br />
+        <br />
+        <strong>
+          In Colombia, every traveller will be able to enter into another world.
+          Colour, music and chatter will follow you everywhere and the country
+          will reach deep into your soul and paint it yellow, blue and
+          red.</strong
+        >
+        <br />
+        <br />
+        From a country that was in headlines for all the wrong reasons only a
+        decade or so ago, Colombia has quickly surpassed being the secret,
+        word-of-mouth destination of those visiting South America, to becoming
+        one of its star attractions.
+        <br />
+        <br />
+        <strong>
+          🇨🇴<br />
+          Language : Spanish <br />
+          Population : 47 Million <br />
+          Visas : US$23 to US$50. <br />
+          Currency : $1 US is 1800 COP, Colombian Pesos <br />
+        </strong>
+        <br />
+        <br />
+
+        <br />
+      </p>
+      <p2> </p2>
+      <br />
+
+      <br />
+      <button>Ready to travel to Colombia ✈️?</button>
+      <br />
+    </section>
+
+    <iframe
+      width="1700"
+      height="530"
+      src="https://www.youtube.com/embed/F8y4gBz4bR0"
+      title="Colombia, the only risk is wanting to stay.  Video country"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <br />
+
+    <br />
+
+    <footer>❀❀❀❀❀❀❀ This page was built by, Mafe ❀❀❀❀❀❀❀</footer>
+    <script>
+      function apply() {
+        let country = prompt("Have you being in Colombia?");
+        let name = prompt("What is you name?");
+        let p2 = document.querySelector("p2");
+        if (country === "yes")
+          p2.innerHTML =
+            " 🏝 Welcome to COLOMBIA " +
+            name +
+            " the only risk is wanting to stay 🏝 ";
+
+        if (country == "no")
+          p2.innerHTML = " 🏝 Welcomeback to COLOMBIA " + name + " 🏝 ";
+      }
+      let contactButton = document.querySelector("button");
+
+      contactButton.addEventListener("click", apply);
+    </script>
+  </body>
+</html>
+
+
